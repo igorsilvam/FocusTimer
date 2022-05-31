@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --ff-primary: "Roboto", sans-serif;
+  --fz-primary: clamp(4rem, 4rem + 12vw, 8.8rem);
+  --base: 194;
+  --bg-color: hsla(240, 5%, 7%, 1);
+  --primary-color: hsla(var(--base), 100%, 63%, 0.13);
+  --second-color: hsla(var(--base), 100%, 63%, 1);
+  --third-color: hsla(0, 0%, 100%, 1);
+}
+
+body {
+  background: var(--bg-color);
+  font-family: var(--ff-primary);
+  display: grid;
+  height: 100vh;
+}
+
+main {
+  justify-self: center;
+  align-self: end;
+}
+
+.hiden {
+  display: none;
+}
+
+.timer {
+  color: var(--third-color);
+  font-size: var(--fz-primary);
+  display: flex;
+  margin-bottom: 1.6rem;
+}
+
+.controls {
+  display: flex;
+  background: var(--primary-color);
+  border-radius: 9999px;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+  width: clamp(16rem, 16rem + 30vw, 22.8rem);
+  height: clamp(6.4rem, 6.4rem + 10vw, 10.8rem);
+}
+
+button {
+  background: transparent;
+  border-radius: none;
+  cursor: pointer;
+  border: none;
+}
+
+button svg {
+  width: clamp (3rem, 3rem + 10vw, 6.4rem);
+}
+
+.play svg path,
+.pause svg path,
+.sound-on svg path {
+  fill: var(--second-color);
+}
+
+footer {
+  justify-self: end;
+  align-self: end;
+  padding: 0 4rem 3.2rem 0;
+}
+
+footer svg {
+  max-height: 4rem;
+}
