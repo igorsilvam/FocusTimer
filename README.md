@@ -39,7 +39,7 @@ PT = Esse projeto tem como finalidade colocar em prática JavaScript, HTML e CSS
 ## Usage
 To use this project, go to the link:
 
-[Project](https://igorsilvamedeiros.github.io/FocusTimer/)
+[Link Project](https://igorsilvamedeiros.github.io/FocusTimer/)
 
 ## Contact
 <img align="left" src="https://avatars.githubusercontent.com/IgorSilvaMedeiros?size=100">
