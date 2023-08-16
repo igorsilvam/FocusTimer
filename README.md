@@ -42,7 +42,7 @@ To use this project, go to the link:
 [Link Project](https://igorsilvam.github.io/FocusTimer/)
 
 ## Contact
-<img align="left" src="https://avatars.githubusercontent.com/IgorSilvaMedeiros?size=100">
+<img align="left" src="https://avatars.githubusercontent.com/igorsilvam?size=100">
 
 Made with ❤️ by [Igor Silva](https://github.com/igorsilvam), get in touch!
 
